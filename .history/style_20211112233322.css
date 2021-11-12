@@ -14,7 +14,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  overflow-x: hidden;
 }
 .container{
   width: 100vw;
@@ -32,12 +31,6 @@
 
 .textLogo{
   color: #1D214E;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 35px;
-}
-.textLogo2{
-  color: #fff;
   font-weight: 700;
   font-size: 28px;
   line-height: 35px;
@@ -325,21 +318,7 @@ hr{
   display: flex;
   justify-content: space-between;
 }
-.pimona{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.colorLogo path{
+  fill: #000;
 }
-.contact{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.info{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  line-height:25.14px
-}
-
 

@@ -36,12 +36,6 @@
   font-size: 28px;
   line-height: 35px;
 }
-.textLogo2{
-  color: #fff;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 35px;
-}
 
 .logo{
   width: 40px;
@@ -325,21 +319,7 @@ hr{
   display: flex;
   justify-content: space-between;
 }
-.pimona{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.colorLogo path{
+  fill: #000;
 }
-.contact{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.info{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  line-height:25.14px
-}
-
 

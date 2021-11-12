@@ -7,6 +7,7 @@
   outline: none;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
+
 }
 
 .root{
@@ -14,10 +15,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  overflow-x: hidden;
 }
 .container{
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -36,17 +36,10 @@
   font-size: 28px;
   line-height: 35px;
 }
-.textLogo2{
-  color: #fff;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 35px;
-}
 
 .logo{
   width: 40px;
   height: 40px;
-  color: #1D214E;
 }
 .logoBlock{
   width:170px;
@@ -201,7 +194,7 @@ hr{
   line-height: 33.6px;
 }
 .ewq{
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -319,27 +312,12 @@ hr{
 .footer{
   margin-top: 600px;
   background: #1D214E;
-  width: auto;
+  width: 88%;
   height: 214px;
   padding: 25px 120px;
   display: flex;
   justify-content: space-between;
 }
-.pimona{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.colorLogo:path{
+  
 }
-.contact{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.info{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  line-height:25.14px
-}
-
-

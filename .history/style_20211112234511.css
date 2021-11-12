@@ -333,13 +333,10 @@ hr{
 .contact{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space;
 }
 .info{
   color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  line-height:25.14px
 }
 
 
