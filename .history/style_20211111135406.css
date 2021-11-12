@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  
+}
+
+.root{
+  width: 100vw;
+  display: flex;
+}
+.header{
+  width: 100%;
+  height: ;
+}

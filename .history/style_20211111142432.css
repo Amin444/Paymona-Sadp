@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+
+}
+
+.root{
+  width: 100vw;
+}
+.header{
+  height: 90px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textLogo{
+  color: #1D214E;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
+.logoBlock{
+  width:170px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height:25px;
+}
+.items{
+  cursor: pointer;
+}
+.border{
+  padding: 8px 12px;
+  border: 1px solid rgba(73, 222, 255, 1);
+  border-radius: 50px;
+  font-weight: 600;
+}
+.title{
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: rgba(29, 33, 78, 1);
+  font-weight: 600;
+  font-size: 60px;
+  line-height:75px;
+}
+.desc{
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+}
